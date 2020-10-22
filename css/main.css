@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
@@ -16,18 +19,6 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
-
-
-
-header{
-  background-color: #00AE7A;
-  background-position: right;
-  height: 68px;
-  width: 1338px;
-  margin: 0;
-}
-
-
 
 /*
  * Remove text-shadow in selection highlight:
@@ -99,9 +90,67 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Begin Header */
+
+   header{
+     background-color: #00AE7A;
+     background-position: right;
+     align: right;
+     background-repeat: no-repeat;
+     height: 68px;
+     width: 1338px;
+     margin: 0;
+   }
+
+   nav{
+     display: flex;
+   }
+
+   nav ul{
+     list-style-type: none;
+     display: flex;
+     justify-content: right;
+     align-items: center;
+     position: relative;
+     left: 60%;
+   }
+
+   nav ul li{
+     margin: 5px 10px 5px 10px;
+   }
+
+   nav ul li a{
+     text-decoration: none;
+     color: #000000;
+     font-family: 'Roboto', sans-serif;
+   }
+
+/* Begin Main Section */
+  h1{
+    color: #ffffff;
+    font-family: 'Molle', cursive;
+    font-size: 100pt;
+  }
 
 
+/* Begin Footer */
 
+   footer{
+     background-color: #00AE7A;
+     background-size: cover;
+     background-position: center;
+     height: 150px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+   }
+
+   p{
+     text-decoration: none;
+     color: #ffffff;
+     font-family: 'Roboto', sans-serif;
+   }
 
 
 
@@ -277,12 +326,4 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
-}
-
-footer{
-  background-color: #00AE7A;
-  background-size: cover;
-  background-position: center;
-  height: 201px;
-  margin: 0;
 }
