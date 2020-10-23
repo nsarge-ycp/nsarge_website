@@ -98,7 +98,7 @@ textarea {
      align: right;
      background-repeat: no-repeat;
      height: 68px;
-     width: 1338px;
+     width: 1373px;
      margin: 0;
    }
 
@@ -112,26 +112,64 @@ textarea {
      justify-content: right;
      align-items: center;
      position: relative;
-     left: 60%;
+     left: 4%;
    }
 
    nav ul li{
-     margin: 5px 10px 5px 10px;
+     margin: 2px 75px 5px 75px;
    }
 
    nav ul li a{
      text-decoration: none;
      color: #000000;
      font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     font-size: 18pt;
    }
 
 /* Begin Main Section */
+
+.intro_panel{
+  background-image: url('../img/Adam Lambert_1.jpg');
+  background-position: relative;
+  background-repeat: no-repeat;
+  height: 576px;
+  margin: 68px 0px 0px 0px;
+  display: flex;
+
+}
+
   h1{
     color: #ffffff;
     font-family: 'Molle', cursive;
-    font-size: 100pt;
+    font-size: 110pt;
+    left: 19%;
+    display: flex;
+    position: relative;
+    margin: 373px 0px 0px 0px;
   }
 
+.content_panel{
+  background-color: #2F007B;
+  background-position: relative;
+  justify-content: right;
+  height: 1411;
+  width: 1373px;
+  margin: 68px 0px 0px 0px;
+  display: flex;
+}
+
+.img_2{
+  margin: 125px 0px 13px 0px;
+}
+
+.img_3{
+  margin:0px 12px 120px 0px;
+}
+
+.img_4{
+    margin:0px 0px 120px 0px;
+}
 
 /* Begin Footer */
 
@@ -143,13 +181,27 @@ textarea {
      display: flex;
      justify-content: center;
      align-items: center;
-     margin: 0;
+     margin: 68px 0px 0px 0px;
    }
 
-   p{
+.triptych{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.instagram{
+  margin: 0px 16px 0px 0px;
+}
+
+  p{
      text-decoration: none;
      color: #ffffff;
      font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     font-style: 20pt;
    }
 
 
