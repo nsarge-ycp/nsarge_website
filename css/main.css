@@ -104,12 +104,13 @@ body{
 /* reworked the width and positioning to sit to the right */
    header{
      background-color: #00AE7A;
-     background-position: right;
+     background-position: center;
      position: relative;
      float: right;
+     display: flex;
      background-repeat: no-repeat;
-     height: 68px;
-     width: 75%;
+     height: 62px;
+     width: 1373px;
      margin: 0;
    }
 
@@ -123,12 +124,11 @@ body{
      justify-content: right;
      align-items: center;
      position: relative;
-     left: 4%;
+     left: 5%;
    }
 
-   /* decrease the left and right space a tad */
    nav ul li{
-     margin: 2px 65px 5px 65px;
+     margin: 4px 75px 5px 75px;
    }
 
    nav ul li a{
@@ -139,6 +139,7 @@ body{
      font-size: 18pt;
    }
 
+
 /* Begin Main Section */
 
 .intro_panel{
@@ -146,6 +147,7 @@ body{
   background-position: relative;
   background-repeat: no-repeat;
   height: 576px;
+  width: 1373px;
   margin: 68px 0px 0px 0px;
   display: flex;
   position: relative;
@@ -167,7 +169,7 @@ body{
   background-color: #2F007B;
   height: auto;
   width: 1373px;
-  margin: 68px 0px 0px 0px;
+  margin: 62px 0px 0px 0px;
   display: flex;
   justify-content: right;
   position: relative;
@@ -201,13 +203,13 @@ body{
      align-items: center;
      flex-direction: column;
      position: relative;
-     top: 100px;
+     top: 110px;
      width: 100vw;
    }
 
 /* renamed to be what we renamed in index.html */
-.socialicons{
-  margin: 0;
+/*.socialicons{
+  margin: 18px 0px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,8 +218,22 @@ body{
 
 .instagram{
   margin: 0px 16px 0px 0px;
+}*/
+
+.fa-instagram{
+  color: #000000;
+  font-size: 48pt;
 }
 
+.fa-twitter{
+  color: #000000;
+  font-size: 48pt;
+}
+
+.fa-facebook{
+  color: #000000;
+  font-size: 48pt;
+}
   p{
      text-decoration: none;
      color: #ffffff;
@@ -226,7 +242,15 @@ body{
      font-style: 20pt;
    }
 
+/* Pseudo Classes */
 
+   nav ul li a:hover{
+     color: #ffffff;
+   }
+
+   .socialicons:hover{
+     color: #ffffff;
+   }
 
 /* ==========================================================================
    Helper classes
