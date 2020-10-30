@@ -142,52 +142,43 @@ body{
 
 /* Begin Main Section */
 
-.intro_panel{
-  background-image: url('../img/Adam Lambert_1.jpg');
-  background-position: relative;
-  background-repeat: no-repeat;
-  height: 576px;
-  width: 1373px;
-  margin: 52px 0px 0px 0px;
-  display: flex;
-  position: relative;
-  top: 50px;
-  bottom: 50px;
-}
 
   h1{
     color: #ffffff;
     font-family: 'Molle', cursive;
     font-size: 110pt;
-    left: 19%;
+    left: 9%;
     display: flex;
     position: relative;
-    margin: 373px 0px 0px 0px;
+    margin: 75px 0px 0px 0px;
   }
 
 .content_panel{
   background-color: #2F007B;
-  height: auto;
+  height: 1620px;
   width: 1373px;
-  margin: 62px 0px 0px 0px;
+  margin: 12px 0px 0px 0px;
   display: flex;
   justify-content: right;
   position: relative;
-  float: right;
+  float: left;
   top: 50px;
   bottom: 50px;
 }
 
-.img_2{
-  margin: 125px 0px 13px 0px;
+.about_text{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16pt;
+  margin: 0px 50px 40px 123px;
 }
 
-.img_3{
-  margin:0px 12px 120px 0px;
-}
-
-.img_4{
-    margin:0px 0px 120px 0px;
+.img_5{
+    margin:30px 0px 120px 0px;
+    float: right;
+    width: 1250px;
 }
 
 /* Begin Footer */
@@ -207,7 +198,6 @@ body{
      width: 100vw;
    }
 
-/* renamed to be what we renamed in index.html */
 /*.socialicons{
   margin: 18px 0px 0px 0px;
   display: flex;
@@ -237,7 +227,7 @@ body{
   color: #000000;
   font-size: 36pt
 }
-  p{
+  .copyright{
      text-decoration: none;
      color: #ffffff;
      font-family: 'Roboto', sans-serif;
