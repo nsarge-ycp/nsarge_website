@@ -207,36 +207,20 @@ body{
      width: 100vw;
    }
 
-/* renamed to be what we renamed in index.html */
-/*.socialicons{
-  margin: 18px 0px 0px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.instagram{
-  margin: 0px 16px 0px 0px;
-}*/
-
-.fa-instagram{
-  margin-top: 20px;
-  color: #000000;
-  font-size: 36pt;
-}
-
-.fa-twitter{
-  margin: 20px 10px 0px 10px;
-  color: #000000;
-  font-size: 36pt;
-}
-
-.fa-facebook{
-  margin-top: 20px;
-  color: #000000;
-  font-size: 36pt
-}
+   .socialicons{
+    margin: 18px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  
+  #instagram:hover .fa-instagram::before,
+  #twitter:hover .fa-twitter::before,
+  #facebook:hover .fa-facebook::before{
+    color: #fff;
+  }
   p{
      text-decoration: none;
      color: #ffffff;

@@ -21,6 +21,7 @@ html {
   display: flex;
   flex-direction: column;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -142,6 +143,7 @@ body{
 
 /* Begin Main Section */
 
+/* Change the postion of contact in the h1 with left: */
 
   h1{
     color: #ffffff;
@@ -166,6 +168,23 @@ body{
   bottom: 50px;
 }
 
+/* Same thing here....target the form in the .content_panel, give it a position and left size and push it from the sides */
+.content_panel form{
+  left: 10%;
+  position: relative;
+}
+
+/* Style the form inputs */
+.content_panel input{
+  width: 170%;
+  height: 45px;
+}
+
+.content_panel textarea{
+  width: 170%;
+  height: 150px;
+}
+
 .about_text{
   text-decoration: none;
   color: #ffffff;
@@ -174,6 +193,21 @@ body{
   font-size: 16pt;
   margin: 0px 50px 40px 123px;
 }
+
+/* styles the Submit Button */
+input.submitbutton{
+  width: 150px;
+  color: #fff;
+  background-color: #00AE7A;
+  border: none;
+  font-size: 20px;
+}
+
+/* Submit Button Hover state */
+input.submitbutton:hover{
+  color: #000;
+}
+
 
 .img_5{
     margin:30px 0px 120px 0px;
@@ -198,7 +232,7 @@ body{
      width: 100vw;
    }
 
-/*.socialicons{
+.socialicons{
   margin: 18px 0px 0px 0px;
   display: flex;
   justify-content: center;
@@ -206,27 +240,13 @@ body{
   flex-direction: row;
 }
 
-.instagram{
-  margin: 0px 16px 0px 0px;
-}*/
 
-.fa-instagram{
-  margin-top: 20px;
-  color: #000000;
-  font-size: 36pt;
+#instagram:hover .fa-instagram::before,
+#twitter:hover .fa-twitter::before,
+#facebook:hover .fa-facebook::before{
+  color: #fff;
 }
 
-.fa-twitter{
-  margin: 20px 10px 0px 10px;
-  color: #000000;
-  font-size: 36pt;
-}
-
-.fa-facebook{
-  margin-top: 20px;
-  color: #000000;
-  font-size: 36pt
-}
   .copyright{
      text-decoration: none;
      color: #ffffff;
