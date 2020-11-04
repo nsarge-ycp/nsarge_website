@@ -95,6 +95,8 @@ textarea {
 
 /* Global Styles - added to now have the page horizontally scroll */
 
+/* Homepage Styles */
+
 body{
   overflow-x: hidden;
 }
@@ -165,7 +167,7 @@ body{
     margin: 373px 0px 0px 0px;
   }
 
-.content_panel{
+.content_panel_home{
   background-color: #2F007B;
   height: auto;
   width: 1373px;
@@ -190,54 +192,264 @@ body{
     margin:0px 0px 120px 0px;
 }
 
-/* Begin Footer */
 
-/* Added in flex-direction: column to stack the items in your footer with positioning to have the spacing on the above the footer.  */
-   footer{
-     background-color: #00AE7A;
-     background-size: cover;
-     background-position: center;
-     height: 150px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-     position: relative;
-     top: 110px;
-     width: 100vw;
-   }
+/* About Page Styles */
 
-   .socialicons{
-    margin: 18px 0px 0px 0px;
+
+body{
+  overflow-x: hidden;
+}
+
+/* Begin Main Section */
+
+/* Change the postion of contact in the h1 with left: */
+
+  h2{
+    color: #ffffff;
+    font-family: 'Molle', cursive;
+    font-size: 110pt;
+    left: 90px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    position: relative;
+    margin: 75px 0px 0px 0px;
   }
-  
-  
-  #instagram:hover .fa-instagram::before,
-  #twitter:hover .fa-twitter::before,
-  #facebook:hover .fa-facebook::before{
-    color: #fff;
+
+.content_panel_about{
+  background-color: #2F007B;
+  height: 1610px;
+  width: 1373px;
+  margin: 12px 0px 0px 0px;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  float: left;
+  top: 50px;
+  bottom: 50px;
+}
+
+
+.about_text{
+  text-decoration: none;
+  left: 90px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16pt;
+  margin: 0px 50px 30px 90px;
+}
+
+
+.img_5{
+    margin:30px 0px 120px 0px;
+    float: right;
+    width: 1282px;
+}
+
+
+/* Contact Page Styles */
+
+
+/* Global Styles - added to now have the page horizontally scroll */
+
+body{
+  overflow-x: hidden;
+}
+
+/* Begin Main Section */
+
+
+  h2{
+    color: #ffffff;
+    font-family: 'Molle', cursive;
+    font-size: 110pt;
+    left: 90px;
+    display: flex;
+    position: relative;
+    margin:75px 0px 0px 0px;
   }
-  p{
-     text-decoration: none;
-     color: #ffffff;
-     font-family: 'Roboto', sans-serif;
-     font-weight: 300;
-     font-style: 20pt;
-   }
 
-/* Pseudo Classes */
+.content_panel_contact{
+  background-color: #2F007B;
+  height: 1100px;
+  width: 1373px;
+  margin: 12px 0px 0px 0px;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  float: left;
+  top: 50px;
+  bottom: 50px;
+}
 
-   nav ul li a:hover{
-     color: #ffffff;
-   }
+form input{
+  height: 69px;
+  width: 1175px;
+  margin: 20px 0px 20px 0px;
+  font-size: 24px;
+  position: relative;
+  left: 90px;
+  border: 4px #000000;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+}
 
-   .socialicons:hover{
-     color: #ffffff;
-   }
+textarea{
+  position: relative;
+  left: 90px;
+  height: 250px;
+  width: 1175px;
+  margin: 20px 0px 20px 0px;
+  font-size: 24px;
+  border: 4px #000000;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18pt;
+}
+
+::placeholder{
+  position: relative;
+  height: 69px;
+  width: 1108px;
+  margin: 20px 20px 20px 20px;
+  font-size: 24px;
+  border: 4px #000000;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18pt;
+}
+
+/* styles the Submit Button */
+input.submitbutton{
+  width: 150px;
+  color: #fff;
+  background-color: #00AE7A;
+  border: none;
+  font-size: 20px;
+}
+
+/* Submit Button Hover state */
+input.submitbutton:hover{
+  color: #000;
+}
+
+/* Same thing here....target the form in the .content_panel, give it a position and left size and push it from the sides */
+.content_panel form{
+  position: relative;
+  left: 40%;
+  position: relative;
+}
+
+/* Style the form inputs */
+.content_panel input{
+  width: 170%;
+  height: 45px;
+}
+
+.content_panel textarea{
+  width: 170%;
+  height: 150px;
+}
+
+/* Tour Page Styles */
+
+h3{
+  color: #00AE7A;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  font-size: 30pt;
+  left: 90px;
+  display: flex;
+  position: relative;
+  margin: 15px 0px 0px 0px;
+}
+
+.content_panel_tour{
+  background-color: #2F007B;
+  height: 1610px;
+  width: 1373px;
+  margin: 12px 0px 0px 0px;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  float: left;
+  top: 50px;
+  bottom: 50px;
+}
+
+
+/* Stream Page Styles */
+
+.content_panel_stream{
+  background-color: #2F007B;
+  height: 1610px;
+  width: 1373px;
+  margin: 12px 0px 0px 0px;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  float: left;
+  top: 50px;
+  bottom: 50px;
+
+}
+
+   /* Begin Footer */
+
+   /* Added in flex-direction: column to stack the items in your footer with positioning to have the spacing on the above the footer.  */
+      footer{
+        background-color: #00AE7A;
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 110px;
+        width: 100vw;
+      }
+
+      .socialicons{
+       margin: 18px 0px 0px 0px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: row;
+     }
+
+
+     #instagram:hover .fa-instagram::before,
+     #twitter:hover .fa-twitter::before,
+     #facebook:hover .fa-facebook::before{
+       color: #fff;
+     }
+
+     p{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-style: 20pt;
+      }
+
+   /* Pseudo Classes */
+
+      nav ul li a:hover{
+        color: #ffffff;
+      }
+
+      .socialicons:hover{
+        color: #ffffff;
+      }
 
 /* ==========================================================================
    Helper classes
