@@ -312,19 +312,31 @@ textarea{
   font-size: 18pt;
 }
 
-::placeholder{
+input::placeholder{
   position: relative;
+  top: 2px;
+  left: 5px;
   height: 69px;
   width: 1108px;
-  margin: 20px 20px 20px 20px;
   font-size: 24px;
-  border: 4px #000000;
-  text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: italic;
-  font-size: 18pt;
 }
+
+textarea::placeholder{
+  position: relative;
+  top: 8px;
+  left: 10px;
+  height: 69px;
+  width: 1108px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
 
 /* styles the Submit Button */
 input.submitbutton{
@@ -389,8 +401,7 @@ h3{
 
 .content_panel_stream{
   background-color: #2F007B;
-  height: 1610px;
-  width: 1373px;
+  width: 80%;
   margin: 12px 0px 0px 0px;
   display: flex;
   justify-content: right;
@@ -398,7 +409,21 @@ h3{
   float: left;
   top: 50px;
   bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+#stream_header h2 {
+  position: relative;
+  left: -60%;
+}
+
+#stream_spotify iframe {
+  position: relative;
+  left: -40%;
+  margin-bottom: 5%;
 }
 
    /* Begin Footer */
