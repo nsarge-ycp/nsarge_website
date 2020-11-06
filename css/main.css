@@ -125,12 +125,14 @@ body{
      display: flex;
      justify-content: right;
      align-items: center;
+     display: flex;
      position: relative;
      left: 5%;
    }
 
    nav ul li{
      margin: 4px 75px 5px 75px;
+     display: flex;
    }
 
    nav ul li a{
@@ -139,6 +141,7 @@ body{
      font-family: 'Roboto', sans-serif;
      font-weight: 300;
      font-size: 18pt;
+     display: flex;
    }
 
 
@@ -150,7 +153,7 @@ body{
   background-repeat: no-repeat;
   height: 576px;
   width: 1373px;
-  margin: 52px 0px 0px 0px;
+  margin: 72px 0px 0px 0px;
   display: flex;
   position: relative;
   top: 50px;
@@ -185,11 +188,13 @@ body{
 }
 
 .img_3{
-  margin:0px 12px 120px 0px;
+  margin:0px 11px 120px 0px;
 }
 
 .img_4{
-    margin:0px 0px 120px 0px;
+  width: 381px;
+  height: 381px;
+  margin:0px 0px 120px 0px;
 }
 
 
@@ -223,7 +228,7 @@ body{
   justify-content: right;
   position: relative;
   float: left;
-  top: 50px;
+  top: 48px;
   bottom: 50px;
 }
 
@@ -277,8 +282,7 @@ body{
   justify-content: right;
   position: relative;
   float: left;
-  top: 50px;
-  bottom: 50px;
+  top: 48px;
 }
 
 form input{
@@ -315,7 +319,7 @@ textarea{
 input::placeholder{
   position: relative;
   top: 2px;
-  left: 5px;
+  left: 20px;
   height: 69px;
   width: 1108px;
   font-size: 24px;
@@ -326,8 +330,8 @@ input::placeholder{
 
 textarea::placeholder{
   position: relative;
-  top: 8px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
   height: 69px;
   width: 1108px;
   font-size: 24px;
@@ -380,19 +384,66 @@ h3{
   left: 90px;
   display: flex;
   position: relative;
-  margin: 15px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
+hr{
+  weight:20pt;
+  height: 20px;
+  width: 1175px;
+  position: relative;
+  left: 8%;
+}
+
+.venue{
+  list-style-type: none;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  left: 93px;
+  justify-content: left;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+}
+
+.city{
+  list-style-type: none;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  left: 93px;
+  justify-content: left;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 13pt;
+}
+
+.date{
+  list-style-type: none;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  left: 1115px;
+  justify-content: right;
+  align-items: right;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20pt;
+}
 .content_panel_tour{
   background-color: #2F007B;
-  height: 1610px;
+  height: 1510px;
   width: 1373px;
   margin: 12px 0px 0px 0px;
   display: flex;
   justify-content: right;
   position: relative;
   float: left;
-  top: 50px;
+  top: 48px;
   bottom: 50px;
 }
 
@@ -401,13 +452,13 @@ h3{
 
 .content_panel_stream{
   background-color: #2F007B;
-  width: 80%;
+  width: 1373px;
   margin: 12px 0px 0px 0px;
   display: flex;
   justify-content: right;
   position: relative;
   float: left;
-  top: 50px;
+  top: 48px;
   bottom: 50px;
   display: flex;
   justify-content: center;
@@ -417,13 +468,14 @@ h3{
 
 #stream_header h2 {
   position: relative;
-  left: -60%;
+  left: -70%;
 }
 
 #stream_spotify iframe {
   position: relative;
-  left: -40%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 8%;
+  left: 3.75%;
 }
 
    /* Begin Footer */
@@ -476,6 +528,15 @@ h3{
         color: #ffffff;
       }
 
+  /* Media Queries */
+
+  @media screen and (max-width: 768px){
+
+  }
+
+  @media screen and (max-width: 320px){
+
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
