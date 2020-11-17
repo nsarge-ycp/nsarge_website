@@ -700,7 +700,7 @@ hr{
 
        form input{
        height: 61px;
-       width: 235%;
+       width: 215%;
        margin: 0% 0% 2% 5%;
        font-size: 24px;
        position: relative;
@@ -717,7 +717,7 @@ hr{
        position: relative;
        left: 90px;
        height: 250px;
-       width: 235%;
+       width: 215%;
        left: 17%;
        margin: 0% 0% 2% 5%;
        font-size: 24px;
@@ -752,6 +752,24 @@ hr{
        font-family: 'Roboto', sans-serif;
        font-weight: 300;
        font-style: italic;
+       }
+
+       /* Tour Dates */
+
+       .date{
+        position: relative;
+        left: 100px;
+       }
+
+       hr{
+         width: 100%;
+       }
+
+       /* Stream Page */
+
+       iframe{
+         width: 600px;
+         height: 500px;
        }
 
 
