@@ -116,54 +116,6 @@ body{
      margin: 0;
    }
 
-   .animated {
-    -webkit-animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-.fadeInRight {
-    -webkit-animation-name: fadeInRight;
-    animation-name: fadeInRight;
-}
-
-
-.header_animated_fadeInRight {
-       background-repeat: no-repeat;
-       background-position: right top;
-       -webkit-animation-duration: 10s;
-       animation-duration: 10s;
-       -webkit-animation-fill-mode: both;
-       animation-fill-mode: both;
-    }
-
-    @-webkit-keyframes header_animated_fadeInRight {
-       0% {
-          opacity: 0;
-          -webkit-transform: translateX(-20px);
-       }
-       100% {
-          opacity: 1;
-          -webkit-transform: translateX(0);
-       }
-    }
-
-    @keyframes header_animated_fadeInRight {
-       0% {
-          opacity: 0;
-          transform: translateX(-20px);
-       }
-       100% {
-          opacity: 1;
-          transform: translateX(0);
-       }
-    }
-
-    .header_animated_fadeInRight {
-    -webkit-animation-name: fadeInRight;
-    animation-name: fadeInRight;
-    }
-
 
    nav{
      display: flex;
@@ -222,7 +174,7 @@ body{
   background-color: #2F007B;
   height: auto;
   width: 93%;
-  margin: 4.5% 0% 0% 0%;
+  margin: 4.5% 0% .5% 0%;
   display: flex;
   justify-content: right;
   position: relative;
@@ -284,22 +236,26 @@ body{
   bottom: 50px;
 }
 
+.content_panel_about h2{
+  margin: 5% 0% 0% 0%;
+  position: relative;
+  left: 7%;
+}
 
 .about_text{
   text-decoration: none;
-  left: 5.5%;
+  left: 5%;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14pt;
-  margin: 1% 7% 0% 8%;
+  margin: 1% 7% 0% 7.5%;
 }
-
 
 .img_5{
     margin:5% 0% 8% 5.5%;
     float: right;
-    width: 92%;
+    width: 92.35%;
 }
 
 
@@ -329,11 +285,11 @@ body{
 
 form input{
   height: 61px;
-  width: 220%;
+  width: 225%;
   margin: 0% 0% 2% 5%;
   font-size: 24px;
   position: relative;
-  left: 90px;
+  left: 15%;
   border: 4px #000000;
   text-decoration: none;
   color: #000000;
@@ -344,9 +300,9 @@ form input{
 
 textarea{
   position: relative;
-  left: 90px;
+  left: 15%;
   height: 250px;
-  width: 220%;
+  width: 225%;
   margin: 0% 0% 2% 5%;
   font-size: 24px;
   border: 4px #000000;
@@ -391,7 +347,7 @@ input.submitbutton{
   background-color: #00AE7A;
   border: none;
   font-size: 20px;
-  margin: 3% 0% 18% 5%;
+  margin: 3% 0% 19% 5%;
 }
 
 /* Submit Button Hover state */
@@ -419,6 +375,12 @@ input.submitbutton:hover{
 
 /* Tour Page Styles */
 
+.content_panel_tour h2{
+  margin: 16% 0% 0% 0%;
+  position: relative;
+  left: 20%;
+}
+
 h3{
   color: #00AE7A;
   font-family: 'Roboto',sans-serif;
@@ -434,6 +396,7 @@ hr{
   weight:20pt;
   height: 20px;
   width: 254%;
+  margin: 2% 0% 4% 0%;
   position: relative;
   left: 22%;
 }
@@ -475,10 +438,29 @@ hr{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 20pt;
+  position: relative;
+  top: -45px;
+}
+
+.date_june{
+  list-style-type: none;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  left: 238.25%;
+  margin-bottom: 15%;
+  justify-content: right;
+  align-items: right;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20pt;
+  position: relative;
+  top: -45px;
+
 }
 .content_panel_tour{
   background-color: #2F007B;
-  height: 1510px;
   width: 93%;
   margin: 1.1% 0% 0% 0%;
   display: flex;
@@ -513,11 +495,12 @@ hr{
   left: -71%;
 }
 
-#stream_spotify iframe {
+iframe{
   position: relative;
   margin-top: 2%;
   margin-bottom: 8%;
-  left: 4%;
+  left: 3.75%;
+  float: right;
 }
 
    /* Begin Footer */
@@ -575,8 +558,10 @@ hr{
   /* Media Queries */
 
   @media screen and (max-width: 768px){
+
     header{
       height: 5%;
+      margin: 0% 0% 0% 0%;
     }
 
        nav{
@@ -606,6 +591,7 @@ hr{
          font-size: 14pt;
          display: flex;
        }
+
        .intro_panel{
          background-image: url('../img/Adam Lambert_1.jpg');
          background-position: relative;
@@ -615,7 +601,6 @@ hr{
          margin: 0% 0% 0% 0%;
          display: flex;
          position: relative;
-
        }
 
        h1{
@@ -627,6 +612,7 @@ hr{
          position: relative;
          margin: 32% 0% 0% 0%;
        }
+
        .img_2{
          width: 92%;
          margin: 9% 0% 1.25% 0%;
@@ -679,13 +665,11 @@ hr{
          margin: 1% 7% 0% 8%;
        }
 
-
        .img_5{
            margin:5% 0% 8% 5.5%;
            float: right;
            width: 92%;
        }
-
 
        .content_panel_contact{
        background-color: #2F007B;
@@ -701,10 +685,10 @@ hr{
        form input{
        height: 61px;
        width: 215%;
-       margin: 0% 0% 2% 5%;
+       margin: 0% 0% 0% 5%;
        font-size: 24px;
        position: relative;
-       left: 17%;
+       left: 5%;
        border: 4px #000000;
        text-decoration: none;
        color: #000000;
@@ -718,7 +702,7 @@ hr{
        left: 90px;
        height: 250px;
        width: 215%;
-       left: 17%;
+       left: 5%;
        margin: 0% 0% 2% 5%;
        font-size: 24px;
        border: 4px #000000;
@@ -772,8 +756,6 @@ hr{
          height: 500px;
        }
 
-
-
        /* styles the Submit Button */
        input.submitbutton{
        width: 40%;
@@ -807,17 +789,7 @@ hr{
        height: 150px;
        }
 
-       #stream_header h2 {
-         position: relative;
-         left: -71%;
-       }
 
-       #stream_spotify iframe {
-         position: relative;
-         margin-top: 2%;
-         margin-bottom: 8%;
-         left: 4%;
-       }
   }
 
   @media screen and (max-width: 320px){
