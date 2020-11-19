@@ -7,8 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" href="Adam Lambert_Icon.gif" type="image/gif" sizes="16x16">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -19,6 +18,16 @@
 </head>
 
 <body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="tour.html">TOUR</a>
+    <a href="stream.html">STREAM</a>
+  </div>
+
 
 <div id="animate" class="animate__animated animate__fadeInRight">
   <header>
@@ -31,6 +40,7 @@
         <li><a href="stream.html">STREAM</a></li>
       </ul>
     </nav>
+    <span class="hamburger" onclick="openNav()">&#9776;</span>
   </header>
 </div>
 

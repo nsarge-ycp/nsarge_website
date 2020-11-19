@@ -202,6 +202,30 @@ body{
   margin:0% 0% 10% 1.75%;
 }
 
+p.watch_velvet_video{
+  margin: 1%;
+  font-weight: 300;
+}
+
+/* Responsive Video Player */
+.videocontainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 /* About Page Styles */
 
@@ -266,6 +290,7 @@ body{
 
 body{
   overflow-x: hidden;
+  width: 100vw;
 }
 
 /* Begin Main Section */
@@ -503,6 +528,54 @@ iframe{
   float: right;
 }
 
+/* Off Canvas Navigation */
+
+.hamburger{
+  font-size:30px;
+  cursor:pointer;
+  display: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #00AE7A;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+#main {
+  transition: margin-right .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
    /* Begin Footer */
 
    /* Added in flex-direction: column to stack the items in your footer with positioning to have the spacing on the above the footer.  */
@@ -561,7 +634,7 @@ iframe{
 
     header{
       height: 5%;
-      margin: 0% 0% 0% 0%;
+      margin: 0 auto;
     }
 
        nav{
@@ -793,6 +866,25 @@ iframe{
   }
 
   @media screen and (max-width: 320px){
+    
+    header {
+      display: inline;
+      height: 40px;
+      margin: 0 auto;
+      position: relative;
+      left: 10px;
+  }
+    nav{
+      display: none;
+    }
+
+    .hamburger {
+      font-size: 30px;
+      cursor: pointer;
+      display: inline;
+      position: relative;
+      left: 86%;
+  }
 
   }
 /* ==========================================================================

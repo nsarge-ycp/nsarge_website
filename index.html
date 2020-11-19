@@ -7,9 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="icon" href="Adam Lambert_Icon.gif" type="image/gif" sizes="16x16">
-  <!-- Place favicon.ico in the root directory -->
-
+  <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -20,8 +18,16 @@
 
 <body>
 
-<div id="animate" class="animate__animated animate__fadeInRight">
-  <header>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="tour.html">TOUR</a>
+    <a href="stream.html">STREAM</a>
+  </div>
+
+  <header id="animate" class="animate__animated animate__fadeInRight">
     <nav>
       <ul>
         <li><a href="index.html">HOME</a></li>
@@ -31,8 +37,8 @@
         <li><a href="stream.html">STREAM</a></li>
       </ul>
     </nav>
+    <span class="hamburger" onclick="openNav()">&#9776;</span>
   </header>
-</div>
 
 <div id="animate" class="animate__animated animate__fadeInLeft">
 <section class="intro_panel">
@@ -47,8 +53,12 @@
   <div>
   <img src="img/Adam Lambert_2.jpg" class="img_2"> -->
 
-    <!-- <p class="watch_velvet_video">Click to watch VELVET (Official Video)</p> -->
-    <!--  <iframe width="560" height="315" src="https://www.youtube.com/embed/E53PkThqKDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+  <div>
+    <p class="watch_velvet_video">Click to watch VELVET (Official Video)</p>
+    <div class="videocontainer">
+    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/E53PkThqKDE"></iframe>
+    </div>
+  </div>
 
   <br>
   <div>
