@@ -183,39 +183,27 @@ body{
   bottom: 60px;
 }
 
-.img_2{
+.images_home{
+  width:102.7%;
+}
+/*.img_2{
   width: 99.5%;
   margin: 10% 0% 0% 0%;
 }
 
 .img_2 {
   filter: none; -webkit-filter: grayscale(0); } .img_2:hover { filter: grayscale(100%); -webkit-filter: grayscale(100%);
-}
-
-.img_3{
-  width: 67%;
-  margin:0% 0% 10% 0%;
-}
-
-.img_4{
-  width: 30.3%;
-  margin:0% 0% 10% 1.75%;
-}
-
-p.watch_velvet_video{
-  margin: 1%;
-  font-weight: 300;
-}
-
+}*/
 /* Responsive Video Player */
 .videocontainer {
   position: relative;
   overflow: hidden;
-  width: 100%;
+
+  width: 102.7%;
+  margin: 9% 0% 0% 0%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -225,6 +213,23 @@ p.watch_velvet_video{
   width: 100%;
   height: 100%;
 }
+
+.img_3{
+  width: 68.3%;
+  margin:.5% .55% 10% 0%;
+}
+
+.img_4{
+  width: 30.8%;
+  margin:.55% 0% 10.25% 0%;
+}
+
+p.watch_velvet_video{
+  margin: 1%;
+  font-weight: 300;
+}
+
+
 
 
 /* About Page Styles */
@@ -365,7 +370,6 @@ textarea::placeholder{
 
 
 
-/* styles the Submit Button */
 input.submitbutton{
   width: 40%;
   color: #fff;
@@ -571,7 +575,7 @@ iframe{
   padding: 16px;
 }
 
-@media screen and (max-height: 450px) {
+@ screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
@@ -686,23 +690,39 @@ iframe{
          margin: 32% 0% 0% 0%;
        }
 
-       .img_2{
-         width: 92%;
-         margin: 9% 0% 1.25% 0%;
+       /* Responsive Video Player */
+       .videocontainer {
+         position: relative;
+         overflow: hidden;
+
+         width: 92.25%;
+         margin: 6% 0% 0% 0%;
+         padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
        }
 
-       .img_2 {
-         filter: none; -webkit-filter: grayscale(0); } .img_2:hover { filter: grayscale(100%); -webkit-filter: grayscale(100%);
+       /* Then style the iframe to fit in the container div with full height and width */
+       .responsive-iframe {
+         position: absolute;
+         top: 0;
+         left: 0;
+         bottom: 0;
+         right: 0;
+         width: 100%;
+         height: 100%;
        }
 
        .img_3{
-         width: 62.5%;
-         margin:0% .88% 9% 0%;
+         width: 62.65%;
+         margin:0% .55% 8% 0%;
        }
 
        .img_4{
-         width: 28%;
-         margin:0% 0% 9% 0%;
+         width: 28.5%;
+         margin:0% 0% 8% 0%;
+       }
+
+       .images_home{
+         width:100%;
        }
 
        h2{
@@ -744,6 +764,9 @@ iframe{
            width: 92%;
        }
 
+      .content_panel_contact h2{
+        margin: 14% 0% 8% 12%;
+      }
        .content_panel_contact{
        background-color: #2F007B;
        width: 93%;
@@ -757,8 +780,8 @@ iframe{
 
        form input{
        height: 61px;
-       width: 215%;
-       margin: 0% 0% 0% 5%;
+       width: 235%;
+       margin: 0% 0% 0% 16.5%;
        font-size: 24px;
        position: relative;
        left: 5%;
@@ -774,9 +797,9 @@ iframe{
        position: relative;
        left: 90px;
        height: 250px;
-       width: 215%;
+       width: 235%;
        left: 5%;
-       margin: 0% 0% 2% 5%;
+       margin: 0% 0% 2% 16.5%;
        font-size: 24px;
        border: 4px #000000;
        text-decoration: none;
@@ -811,63 +834,173 @@ iframe{
        font-style: italic;
        }
 
+       input.submitbutton{
+         width: 45%;
+         color: #fff;
+         background-color: #00AE7A;
+         border: none;
+         font-size: 20px;
+         margin: 3% 0% 23% 16.5%;
+       }
+
+
        /* Tour Dates */
 
-       .date{
-        position: relative;
-        left: 100px;
+       .content_panel_tour h2{
+         margin: 13% 0% 0% 0%;
+         position: relative;
+         left: 16.5%;
+       }
+
+       .content_panel_tour h3{
+         color: #00AE7A;
+         font-family: 'Roboto',sans-serif;
+         font-weight: 300;
+         font-size: 20pt;
+         left: 16.5%;
+         margin: 0% 0% 0% 0%;
+         display: flex;
+         position: relative;
        }
 
        hr{
-         width: 100%;
+         weight:20pt;
+         height: 20px;
+         width: 197%;
+         margin: 2% 0% 4% 0%;
+         position: relative;
+         left: 16.5%;
        }
+
+       .venue{
+         list-style-type: none;
+         text-decoration: none;
+         position: relative;
+         display: flex column;
+         left: 16.5%;
+         justify-content: left;
+         color: #ffffff;
+         font-family: 'Roboto', sans-serif;
+         font-weight: 400;
+         font-size: 18pt;
+       }
+
+       .city{
+         list-style-type: none;
+         text-decoration: none;
+         position: relative;
+         display: flex;
+         justify-content: left;
+         color: #ffffff;
+         font-family: 'Roboto', sans-serif;
+         font-weight: 300;
+         font-size: 13pt;
+       }
+
+       .date{
+         list-style-type: none;
+         text-decoration: none;
+         position: relative;
+         display: flex;
+         left: 169.5%;
+         justify-content: right;
+         align-items: right;
+         color: #ffffff;
+         font-family: 'Roboto', sans-serif;
+         font-weight: 300;
+         font-size: 18pt;
+         position: relative;
+         top: -45px;
+       }
+
+       .date_june{
+         list-style-type: none;
+         text-decoration: none;
+         position: relative;
+         display: flex;
+         left: 167.5%;
+         margin-bottom: 15%;
+         justify-content: right;
+         align-items: right;
+         color: #ffffff;
+         font-family: 'Roboto', sans-serif;
+         font-weight: 300;
+         font-size: 18pt;
+         position: relative;
+         top: -45px;
+
+       }
+
+
 
        /* Stream Page */
 
+       #stream_header h2 {
+         position: relative;
+         left: -85%;
+         margin: 15% 0% 0% 0%;
+       }
        iframe{
-         width: 600px;
+         width: 660px;
          height: 500px;
-       }
-
-       /* styles the Submit Button */
-       input.submitbutton{
-       width: 40%;
-       color: #fff;
-       background-color: #00AE7A;
-       border: none;
-       font-size: 20px;
-       margin: 3% 0% 23% 5%;
-       }
-
-       /* Submit Button Hover state */
-       input.submitbutton:hover{
-       color: #000;
-       }
-
-       /* Same thing here....target the form in the .content_panel, give it a position and left size and push it from the sides */
-       .content_panel form{
-       position: relative;
-       left: 40%;
-       position: relative;
-       }
-
-       /* Style the form inputs */
-       .content_panel input{
-       width: 170%;
-       height: 45px;
-       }
-
-       .content_panel textarea{
-       width: 90%;
-       height: 150px;
+         margin: 2% 0% 8% 0%;
        }
 
 
-  }
 
   @media screen and (max-width: 320px){
-    
-    header {
+
+    h1{
+      color: #000000;
+      background-color: #00AE7A;
+      font-family: 'Molle', cursive;
+      font-size: 18pt;
+      left: 17%;
+      display: flex;
+      position: relative;
+      margin: 32% 20% 20% 0%;
+    }
+
+       nav{
+         display: flex;
+       }
+
+       nav ul{
+         list-style-type: none;
+         display: flex;
+         justify-content: right;
+         align-items: center;
+         display: flex;
+         position: relative;
+         left: 5%;
+       }
+
+       nav ul li{
+         margin: 0% 10% 0% 10%;
+         display: flex;
+       }
+
+       nav ul li a{
+         text-decoration: none;
+         color: #000000;
+         font-family: 'Roboto', sans-serif;
+         font-weight: 300;
+         font-size: 14pt;
+         display: flex;
+       }
+
+       .intro_panel{
+         background-image: url('../img/Adam Lambert_1.jpg');
+         background-position: relative;
+         background-repeat: no-repeat;
+         width: 93%;
+         margin: 0% 0% 0% 0%;
+         display: flex;
+         position: relative;
+       }
+
+
+    header{
       display: inline;
       height: 40px;
       margin: 0 auto;
@@ -883,10 +1016,14 @@ iframe{
       cursor: pointer;
       display: inline;
       position: relative;
-      left: 86%;
+      left: 88%;
+      margin: 0%;
+      color: #ffffff;
+      background-color: #00000;
   }
 
   }
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -970,16 +1107,16 @@ iframe{
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
+   EXAMPLE  Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@ only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
+@ print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
@@ -992,7 +1129,7 @@ iframe{
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
+@ print {
   *,
   *::before,
   *::after {
