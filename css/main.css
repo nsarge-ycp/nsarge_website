@@ -550,7 +550,7 @@ iframe{
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .sidenav a {
@@ -637,7 +637,7 @@ iframe{
 
   /* Media Queries */
 
-  @media screen and (max-width: 768px){
+  @media only screen and (max-width: 768px){
 
     header{
       height: 5%;
@@ -788,7 +788,7 @@ iframe{
 
        form input{
        height: 61px;
-       width: 236%;
+       width: 216%;
        margin: 0% 0% 0% 16.5%;
        font-size: 24px;
        position: relative;
@@ -805,7 +805,7 @@ iframe{
        position: relative;
        left: 90px;
        height: 300px;
-       width: 236%;
+       width: 216%;
        left: 5%;
        margin: 0% 0% 2% 16.5%;
        font-size: 24px;
@@ -908,40 +908,41 @@ iframe{
          font-size: 13pt;
        }
 
-       .date{
-         list-style-type: none;
-         text-decoration: none;
-         position: relative;
-         display: flex;
-         left: 169.5%;
-         justify-content: right;
-         align-items: right;
-         color: #ffffff;
-         font-family: 'Roboto', sans-serif;
-         font-weight: 300;
-         font-size: 18pt;
-         position: relative;
-         top: -45px;
-       }
+       .date {
+        list-style-type: none;
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        left: 0%;
+        justify-content: right;
+        align-items: right;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 18pt;
+        position: relative;
+        top: -45px;
+        margin-left: 170%;
+        width: 150px;
+    }
 
        .date_june{
-         list-style-type: none;
-         text-decoration: none;
-         position: relative;
-         display: flex;
-         left: 167.5%;
-         margin-bottom: 15%;
-         justify-content: right;
-         align-items: right;
-         color: #ffffff;
-         font-family: 'Roboto', sans-serif;
-         font-weight: 300;
-         font-size: 18pt;
-         position: relative;
-         top: -45px;
-
+        list-style-type: none;
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        left: 0%;
+        justify-content: right;
+        align-items: right;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 18pt;
+        position: relative;
+        top: -45px;
+        margin-left: 170%;
+        width: 150px;
        }
-
 
        /* Stream Page */
 
@@ -954,17 +955,17 @@ iframe{
          left: -85%;
          margin: 15% 0% 0% 0%;
        }
-       iframe{
-         width: 92.4%;
-         height: 500px;
-         margin: 2% 0% 8% 0%;
-         position: relative;
-         left: 3.78%;
-       }
+       iframe {
+        width: 90%;
+        height: 500px;
+        margin: 2% 0% 8% 0%;
+        position: relative;
+        left: 2.5%;
+    }
 
 
 
-  @media screen and (max-width: 320px){
+  @media only screen and (max-width: 320px){
 
     h1{
       color: #000000;
@@ -1106,7 +1107,7 @@ iframe{
 
   form input{
     height: 35px;
-    width: 157%;
+    width: 137%;
     margin: 0% 0% 0% 4%;
     font-size: 12pt;
     position: relative;
@@ -1122,7 +1123,7 @@ iframe{
     position: relative;
     left: 10%;
     height: 150px;
-    width: 157%;
+    width: 137%;
     margin: 0% 0% 0% 4%;
     border: 4px #000000;
     text-decoration: none;
@@ -1240,12 +1241,12 @@ iframe{
     font-size: 10pt;
   }
 
-  .date{
+  .date {
     list-style-type: none;
     text-decoration: none;
     position: relative;
     display: flex;
-    left: 89%;
+    left: 0%;
     justify-content: right;
     align-items: right;
     color: #ffffff;
@@ -1254,15 +1255,18 @@ iframe{
     font-size: 10pt;
     position: relative;
     top: -27px;
-  }
+    margin-left: 90%;
+    width: 100px;
+}
+
+
 
   .date_june{
     list-style-type: none;
     text-decoration: none;
     position: relative;
     display: flex;
-    left: 87.5%;
-    margin-bottom: 15%;
+    left: 0%;
     justify-content: right;
     align-items: right;
     color: #ffffff;
@@ -1270,7 +1274,9 @@ iframe{
     font-weight: 300;
     font-size: 10pt;
     position: relative;
-    top: -31px;
+    top: -27px;
+    margin-left: 90%;
+    width: 100px;
 
   }
 
@@ -1310,13 +1316,13 @@ iframe{
     }
 
 
-    iframe{
-      width: 97%;
+    iframe {
+      width: 77%;
       height: 500px;
       margin: 2% 0% 10% 0%;
       position: relative;
-      left: 5%;
-    }
+      left: -4%;
+  }
 
     /* Begin Footer */
 
