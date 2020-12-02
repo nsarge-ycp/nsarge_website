@@ -112,7 +112,7 @@ body{
      display: flex;
      background-repeat: no-repeat;
      height: 10%;
-     width: 93%;
+     width: 92%;
      margin: 0;
    }
 
@@ -128,7 +128,7 @@ body{
      align-items: center;
      display: flex;
      position: relative;
-     left: 5%;
+     left: 7.5%;
    }
 
    nav ul li{
@@ -152,13 +152,14 @@ body{
   background-image: url('../img/Adam Lambert_1.jpg');
   background-position: relative;
   background-repeat: no-repeat;
-  width: 180%;
+  width: 200%;
   margin: 5% 0% 0% 0%;
   display: flex;
   position: relative;
   top: 55px;
   bottom: 50px;
 }
+
 
   h1{
     color: #ffffff;
@@ -173,8 +174,8 @@ body{
 .content_panel_home{
   background-color: #2F007B;
   height: auto;
-  width: 93%;
-  margin: 4.5% 0% .5% 0%;
+  width: 92%;
+  margin: 4.5% 0% .25% 0%;
   display: flex;
   justify-content: right;
   position: relative;
@@ -187,21 +188,13 @@ body{
   width:103.75%;
   margin-top: -1.2%;
 }
-/*.img_2{
-  width: 99.5%;
-  margin: 10% 0% 0% 0%;
-}
 
-.img_2 {
-  filter: none; -webkit-filter: grayscale(0); } .img_2:hover { filter: grayscale(100%); -webkit-filter: grayscale(100%);
-}*/
 /* Responsive Video Player */
 .videocontainer {
   position: relative;
-  overflow: hidden;
-
-  width: 103.75%;
-  margin: 7.75% 0% 0% 0%;
+  width: 101.25%;
+  float: left;
+  margin: 7.75% 0% 2.75% -8.6%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
@@ -217,20 +210,18 @@ body{
 
 .img_3{
   width: 68.3%;
-  margin:.5% .55% 9% 0%;
+  margin:0% .55% 9.5% 0%;
 }
 
 .img_4{
-  width: 30.8%;
-  margin:.55% 0% 9.25% 0%;
-}
-
-p.watch_velvet_video{
-  margin: 1%;
-  font-weight: 300;
+  width: 30.65%;
+  margin:.55% 0% 10% 0%;
 }
 
 
+.images_home{
+  width: 101.8%;
+}
 
 
 /* About Page Styles */
@@ -248,7 +239,7 @@ body{
     color: #ffffff;
     font-family: 'Molle', cursive;
     font-size: 110pt;
-    left: 19%;
+    left: 23%;
     display: flex;
     position: relative;
     margin: 14% 0% 0% 0%;
@@ -256,7 +247,7 @@ body{
 
 .content_panel_about{
   background-color: #2F007B;
-  width: 93%;
+  width: 92%;
   margin: 1.1% 0% 0% 0%;
   display: flex;
   justify-content: right;
@@ -267,25 +258,26 @@ body{
 }
 
 .content_panel_about h2{
-  margin: 5% 0% 0% 0%;
+  margin: 5.25% 0% 0% 0%;
   position: relative;
-  left: 7%;
+  left: 8.75%;
 }
 
 .about_text{
   text-decoration: none;
-  left: 5%;
+  left: 9%;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  width: 83%;
   font-size: 14pt;
-  margin: 1% 7% 0% 7.5%;
+  margin: 1% 7% 0% 8.75%;
 }
 
 .img_5{
-    margin:5% 0% 8% 5.5%;
+    margin:5% 0% 8.75% 5.5%;
     float: right;
-    width: 92.35%;
+    width: 91.4%;
 }
 
 
@@ -302,10 +294,9 @@ body{
 /* Begin Main Section */
 
 
-
 .content_panel_contact{
   background-color: #2F007B;
-  width: 93%;
+  width: 92%;
   margin: 1.1% 0% 0% 0%;
   display: flex;
   justify-content: right;
@@ -316,8 +307,8 @@ body{
 
 form input{
   height: 61px;
-  width: 226.5%;
-  margin: 0% 0% 2% 5%;
+  width: 217%;
+  margin: 0% 0% 2% 8%;
   font-size: 24px;
   position: relative;
   left: 15.4%;
@@ -333,8 +324,8 @@ textarea{
   position: relative;
   left: 15.4%;
   height: 250px;
-  width: 226.5%;
-  margin: 0% 0% 2% 5%;
+  width: 217%;
+  margin: 0% 0% 2% 8%;
   font-size: 24px;
   border: 4px #000000;
   text-decoration: none;
@@ -375,7 +366,7 @@ input.submitbutton{
   background-color: #00AE7A;
   border: none;
   font-size: 22px;
-  margin: -1% 0% 20% 5%;
+  margin: -1% 0% 23% 8%;
 }
 
 /* Submit Button Hover state */
@@ -404,9 +395,8 @@ input.submitbutton:hover{
 /* Tour Page Styles */
 
 .content_panel_tour h2{
-  margin: 16% 0% 0% 0%;
+  margin: 16% 0% 0% 2%;
   position: relative;
-  left: 20%;
 }
 
 h3{
@@ -414,7 +404,7 @@ h3{
   font-family: 'Roboto',sans-serif;
   font-weight: 300;
   font-size: 30pt;
-  left: 21%;
+  left: 25.5%;
   margin: -1% 0% 3% 0%;
   display: flex;
   position: relative;
@@ -422,10 +412,10 @@ h3{
 
 hr{
   height: 20px;
-  width: 255%;
+  width: 245%;
   margin: 2% 0% 4% 0%;
   position: relative;
-  left: 22%;
+  left: 25.5%;
 }
 
 .venue{
@@ -433,7 +423,7 @@ hr{
   text-decoration: none;
   position: relative;
   display: flex column;
-  left: 22%;
+  left: 25.5%;
   justify-content: left;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -458,7 +448,7 @@ hr{
   text-decoration: none;
   position: relative;
   display: flex;
-  left: 244%;
+  left: 237.5%;
   justify-content: right;
   align-items: right;
   color: #ffffff;
@@ -474,8 +464,8 @@ hr{
   text-decoration: none;
   position: relative;
   display: flex;
-  left: 242.25%;
-  margin-bottom: 13.5%;
+  left: 235.75%;
+  margin-bottom: 17%;
   justify-content: right;
   align-items: right;
   color: #ffffff;
@@ -488,7 +478,7 @@ hr{
 }
 .content_panel_tour{
   background-color: #2F007B;
-  width: 93%;
+  width: 92%;
   margin: 1.1% 0% 0% 0%;
   display: flex;
   justify-content: right;
@@ -503,7 +493,7 @@ hr{
 
 .content_panel_stream{
   background-color: #2F007B;
-  width: 93%;
+  width: 92%;
   margin: 1.1% 0% 0% 0%;
   display: flex;
   justify-content: right;
@@ -520,14 +510,15 @@ hr{
 
 #stream_header h2 {
   position: relative;
-  left: -71%;
+  left: -66%;
 }
 
 iframe{
   position: relative;
   margin-top: 2%;
-  margin-bottom: 8%;
-  left: 3.75%;
+  margin-bottom: 8.25%;
+  margin-left: 8.5%;
+  width: 91.5%;
   float: right;
 }
 
@@ -580,484 +571,491 @@ iframe{
   .sidenav a {font-size: 18px;}
 }
 
-   /* Begin Footer */
+/* Begin Footer */
 
-   /* Added in flex-direction: column to stack the items in your footer with positioning to have the spacing on the above the footer.  */
-      footer{
-        background-color: #00AE7A;
-        background-size: cover;
-        background-position: center;
-        height: 15%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: relative;
-        top: 117px;
-        width: 100vw;
-        margin: 5% 0% 0% 0%;
-      }
+/* Added in flex-direction: column to stack the items in your footer with positioning to have the spacing on the above the footer.  */
+footer{
+  background-color: #00AE7A;
+  background-size: cover;
+  background-position: center;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 117px;
+  width: 100vw;
+  margin: 5% 0% 0% 0%;
+}
 
-      .socialicons{
-       margin: 2% 0% 0% 0%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: row;
-     }
-
-
-     #instagram:hover .fa-instagram::before,
-     #twitter:hover .fa-twitter::before,
-     #facebook:hover .fa-facebook::before{
-       color: #fff;
-     }
-
-     p{
-        text-decoration: none;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        font-style: 20pt;
-        margin-bottom: 2%;
-      }
-
-      p.copyright{
-        margin-top: 1%;
-      }
-
-   /* Pseudo Classes */
-
-      nav ul li a:hover{
-        color: #ffffff;
-      }
-
-      .socialicons:hover{
-        color: #ffffff;
-      }
-
-  /* Media Queries */
-
-  @media only screen and (max-width: 768px){
-
-    header{
-      height: 5%;
-      margin: 0 auto;
-    }
-
-       nav{
-         display: flex;
-       }
-
-       nav ul{
-         list-style-type: none;
-         display: flex;
-         justify-content: right;
-         align-items: center;
-         display: flex;
-         position: relative;
-         left: 5%;
-       }
-
-       nav ul li{
-         margin: 0% 10% 0% 10%;
-         display: flex;
-       }
-
-       nav ul li a{
-         text-decoration: none;
-         color: #000000;
-         font-family: 'Roboto', sans-serif;
-         font-weight: 300;
-         font-size: 14pt;
-         display: flex;
-       }
-
-       .intro_panel{
-         background-image: url('../img/Adam Lambert_1.jpg');
-         background-position: top;
-         position: relative;
-         background-size: cover;
-         background-repeat: no-repeat;
-         width: 93%;
-         height: auto;
-         margin: 0% 17% 0% 0%;
-         display: flex;
-         position: relative;
-         left: 0%;
-         top: 38px;
-         margin-bottom: -1.6%;
-       }
-
-       h1{
-         color: #ffffff;
-         font-family: 'Molle', cursive;
-         font-size: 50pt;
-         left: 37%;
-         display: flex;
-         position: relative;
-         margin: 32% 0% 0% 0%;
-       }
-
-       .content_panel_home{
-         background-color: #2F007B;
-         height: auto;
-         width: 93%;
-         margin: 4.5% 0% 12.5% 0%;
-         display: flex;
-         justify-content: right;
-         position: relative;
-         float: right;
-       }
-
-       /* Responsive Video Player */
-       .videocontainer {
-         position: relative;
-         overflow: hidden;
-
-         width: 92.25%;
-         margin: 6% 0% 0% 0%;
-         padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-       }
-
-       /* Then style the iframe to fit in the container div with full height and width */
-       .responsive-iframe {
-         position: absolute;
-         top: 0;
-         left: 0;
-         bottom: 0;
-         right: 0;
-         width: 100%;
-         height: 100%;
-       }
-
-       .img_3{
-         width: 62.65%;
-         margin:0% .55% 8% 0%;
-       }
-
-       .img_4{
-         width: 28.5%;
-         margin:0% 0% 8% 0%;
-       }
-
-       .images_home{
-         width:100%;
-         margin-top: -1.9%;
-       }
-
-       h2{
-         color: #ffffff;
-         font-family: 'Molle', cursive;
-         font-size: 50pt;
-         left: 8%;
-         display: flex;
-         position: relative;
-         margin: 40px 0px 0px 0px;
-       }
-
-       .content_panel_about{
-         background-color: #2F007B;
-         width: 93%;
-         margin: 1.1% 0% 0% 0%;
-         display: flex;
-         justify-content: right;
-         position: relative;
-         float: left;
-         top: 30px;
-         margin-bottom: 69px;
-       }
+.socialicons{
+   margin: 2% 0% 0% 0%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+  }
 
 
-       .about_text{
-         text-decoration: none;
-         left: 5.5%;
-         color: #ffffff;
-         font-family: 'Roboto', sans-serif;
-         font-weight: 300;
-         font-size: 14pt;
-         margin: 1% 7% .5% 8%;
-       }
+  #instagram:hover .fa-instagram::before,
+  #twitter:hover .fa-twitter::before,
+  #facebook:hover .fa-facebook::before{
+    color: #fff;
+  }
 
-       .img_5{
-           margin:5% 0% 8% 5.5%;
-           float: right;
-           width: 92%;
-       }
+p{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: 20pt;
+  margin-bottom: 2%;
+}
 
-      .content_panel_contact h2{
-        margin: 14% 0% 4% 12%;
-      }
+p.copyright{
+  margin-top: 1%;
+}
 
-       .content_panel_contact{
-       background-color: #2F007B;
-       width: 93%;
-       margin: 0.2% 0% 0% 0%;
-       display: flex;
-       justify-content: right;
-       position: relative;
-       float: left;
-       top: 36px;
-       margin-bottom: 15px;
-       }
+/* Pseudo Classes */
 
-       form input{
-       height: 61px;
-       width: 235%;
-       margin: 0% 0% 5% 16.5%;
-       font-size: 24px;
-       position: relative;
-       left: 5%;
-       border: 4px #000000;
-       text-decoration: none;
-       color: #000000;
-       font-family: 'Roboto', sans-serif;
-       font-weight: 300;
-       font-size: 18pt;
-       }
+nav ul li a:hover{
+  color: #ffffff;
+}
 
-       textarea{
-       position: relative;
-       left: 90px;
-       height: 300px;
-       width: 235%;
-       left: 5%;
-       margin: 0% 0% 2% 16.5%;
-       font-size: 24px;
-       border: 4px #000000;
-       text-decoration: none;
-       color: #000000;
-       font-family: 'Roboto', sans-serif;
-       font-weight: 300;
-       font-style: italic;
-       font-size: 18pt;
-       }
+.socialicons:hover{
+  color: #ffffff;
+}
 
-       input::placeholder{
-       position: relative;
-       top: 1px;
-       left: 20px;
-       height: 69px;
-       width: 1108px;
-       font-size: 24px;
-       font-family: 'Roboto', sans-serif;
-       font-weight: 300;
-       font-style: italic;
-       }
+/* Media Queries */
 
-       textarea::placeholder{
-       position: relative;
-       top: 20px;
-       left: 20px;
-       height: 69px;
-       width: 1108px;
-       font-size: 24px;
-       font-family: 'Roboto', sans-serif;
-       font-weight: 300;
-       font-style: italic;
-       }
+@media only screen and (max-width: 768px){
 
-       input.submitbutton{
-         width: 50%;
-         color: #fff;
-         background-color: #00AE7A;
-         border: none;
-         font-size: 20px;
-         margin: 0% 0% 23% 16.5%;
-       }
+header{
+  width: 93%;
+  height: 5%;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  position: relative;
+  left: 2.5%;
+}
+
+nav ul li{
+  margin: 0% 10% 0% 10%;
+  display: flex;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14pt;
+  display: flex;
+ }
+
+.intro_panel{
+   background-image: url('../img/Adam Lambert_1.jpg');
+   background-position: top;
+   position: relative;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 93%;
+   height: auto;
+   margin: 0% 17% 0% 0%;
+   display: flex;
+   position: relative;
+   left: 0%;
+   top: 38px;
+   margin-bottom: -1.6%;
+}
+
+ h1{
+   color: #ffffff;
+   font-family: 'Molle', cursive;
+   font-size: 50pt;
+   left: 36%;
+   display: flex;
+   position: relative;
+   margin: 32% 0% 0% 0%;
+ }
+
+.content_panel_home{
+   background-color: #2F007B;
+   height: auto;
+   width: 93%;
+   margin: 4.5% 0% 12.5% 0%;
+   display: flex;
+   justify-content: right;
+   position: relative;
+   float: right;
+}
+
+/* Responsive Video Player */
+.videocontainer {
+   position: relative;
+   width: 91.75%;
+   margin: 6% 0% 3.5% 0%;
+   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
 
 
-       /* Tour Dates */
+  /* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+}
 
-       .content_panel_tour{
-         top: 30px;
-         margin-bottom: 70px;
-       }
+.img_3{
+   width: 62.65%;
+   margin:0% .55% 8% 0%;
+}
 
-       .content_panel_tour h2{
-         margin: 13% 0% 0% 0%;
-         position: relative;
-         left: 16.5%;
-       }
+.img_4{
+   width: 28.5%;
+   margin:0% 0% 8% 0%;
+}
 
-       .content_panel_tour h3{
-         color: #00AE7A;
-         font-family: 'Roboto',sans-serif;
-         font-weight: 300;
-         font-size: 20pt;
-         left: 16.5%;
-         margin: 0% 0% 0% 0%;
-         display: flex;
-         position: relative;
-       }
+.images_home{
+   width:100%;
+   margin-top: -1.9%;
+}
 
-       hr{
-         height: 20px;
-         width: 197%;
-         margin: 2% 0% 4% 0%;
-         position: relative;
-         left: 16.5%;
-       }
+h2{
+   color: #ffffff;
+   font-family: 'Molle', cursive;
+   font-size: 50pt;
+   width: 300px;
+   left: 8%;
+   display: flex;
+   position: relative;
+   margin: 8% 0% 0% 0%;
+}
 
-       .venue{
-         list-style-type: none;
-         text-decoration: none;
-         position: relative;
-         display: flex column;
-         left: 16.5%;
-         justify-content: left;
-         color: #ffffff;
-         font-family: 'Roboto', sans-serif;
-         font-weight: 400;
-         font-size: 18pt;
-       }
+.content_panel_about{
+   background-color: #2F007B;
+   width: 93%;
+   margin: 1.1% 0% -.1% 0%;
+   display: flex;
+   justify-content: right;
+   position: relative;
+   float: left;
+   top: 30px;
+   margin-bottom: 69px;
+}
 
-       .city{
-         list-style-type: none;
-         text-decoration: none;
-         position: relative;
-         display: flex;
-         justify-content: left;
-         color: #ffffff;
-         font-family: 'Roboto', sans-serif;
-         font-weight: 300;
-         font-size: 13pt;
-       }
+ .content_panel_about h2{
+   margin-left: -1%;
+ }
 
-       .date {
-        list-style-type: none;
-        text-decoration: none;
-        position: relative;
-        display: flex;
-        left: 0%;
-        justify-content: right;
-        align-items: right;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        font-size: 18pt;
-        position: relative;
-        top: -45px;
-        margin-left: 169%;
-        width: 150px;
-    }
+.about_text{
+   text-decoration: none;
+   left: 5.5%;
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 14pt;
+   margin: 1% 7% .5% 7.75%;
+}
 
-       .date_june{
-        list-style-type: none;
-        text-decoration: none;
-        position: relative;
-        display: flex;
-        left: -2.5%;
-        justify-content: right;
-        align-items: right;
-        color: #ffffff;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        font-size: 18pt;
-        position: relative;
-        top: -45px;
-        margin-left: 169%;
-        width: 150px;
-        margin-bottom: 5%;
-       }
+.img_5{
+     margin:5% 0% 8% 5.5%;
+     float: right;
+     width: 92.5%;
+}
 
-       /* Stream Page */
+.content_panel_contact h2{
+  margin: 12% 0% 4% 10%;
+}
 
-       .content_panel_stream{
-         top: 30px;
-         margin-bottom: 73px;
-       }
+.content_panel_contact{
+   background-color: #2F007B;
+   width: 93%;
+   margin: 0.2% 0% 0% 0%;
+   display: flex;
+   justify-content: right;
+   position: relative;
+   float: left;
+   top: 36px;
+   margin-bottom: 15px;
+}
 
-       #stream_header h2 {
-         position: relative;
-         left: -85%;
-         margin: 15% 0% 0% 0%;
-       }
-       iframe {
-        width: 92.5%;
-        height: 500px;
-        margin: 2% 0% 8% 0%;
-        position: relative;
-        left: 3.7%;
-    }
+form input{
+   height: 61px;
+   width: 200%;
+   margin: 0% 0% 5% 13.25%;
+   font-size: 24px;
+   position: relative;
+   left: 5%;
+   border: 4px #000000;
+   text-decoration: none;
+   color: #000000;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 18pt;
+}
 
-    footer{
-      top: 0px;
-    }
+textarea{
+   position: relative;
+   left: 90px;
+   height: 300px;
+   width: 200%;
+   left: 5%;
+   margin: 0% 0% 2% 13.25%;
+   font-size: 24px;
+   border: 4px #000000;
+   text-decoration: none;
+   color: #000000;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-style: italic;
+   font-size: 18pt;
+}
+
+input::placeholder{
+   position: relative;
+   top: 1px;
+   left: 20px;
+   height: 69px;
+   width: 1108px;
+   font-size: 24px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-style: italic;
+}
+
+textarea::placeholder{
+   position: relative;
+   top: 20px;
+   left: 20px;
+   height: 69px;
+   width: 1108px;
+   font-size: 24px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-style: italic;
+}
+
+input.submitbutton{
+   width: 50%;
+   color: #fff;
+   background-color: #00AE7A;
+   border: none;
+   font-size: 20px;
+   margin: 0% 0% 19% 13.25%;
+}
+
+
+/* Tour Dates */
+
+.content_panel_tour{
+   top: 30px;
+   margin-bottom: 70px;
+   width: 93%;
+}
+
+.content_panel_tour h2{
+   margin: 13% 0% 0% 0%;
+   position: relative;
+   left: 17%;
+}
+
+.content_panel_tour h3{
+   color: #00AE7A;
+   font-family: 'Roboto',sans-serif;
+   font-weight: 300;
+   font-size: 20pt;
+   left: 17%;
+   margin: 0% 0% 0% 0%;
+   display: flex;
+   position: relative;
+}
+
+hr{
+   height: 20px;
+   width: 195%;
+   margin: 2% 0% 4% 0%;
+   position: relative;
+   left: 17%;
+}
+
+.venue{
+   list-style-type: none;
+   text-decoration: none;
+   position: relative;
+   display: flex column;
+   left: 17%;
+   justify-content: left;
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 18pt;
+}
+
+.city{
+   list-style-type: none;
+   text-decoration: none;
+   position: relative;
+   display: flex;
+   justify-content: left;
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 13pt;
+}
+
+.date {
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    left: 0%;
+    justify-content: right;
+    align-items: right;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    position: relative;
+    top: -42px;
+    margin-left: 168%;
+    width: 150px;
+}
+
+.date_june{
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    left: -2.5%;
+    justify-content: right;
+    align-items: right;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    position: relative;
+    top: -46px;
+    margin-left: 168.25%;
+    width: 150px;
+    margin-bottom: 5%;
+}
+
+/* Stream Page */
+
+.content_panel_stream{
+   top: 30px;
+   width: 93%;
+   margin-bottom: 9%;
+}
+
+#stream_header h2 {
+   position: relative;
+   left: -51%;
+   margin: 12% 0% 0% 0%;
+}
+iframe {
+   width: 92.5%;
+   height: 500px;
+   margin: 2% 0% 7.5% 0%;
+   position: relative;
+   left: 3.7%;
+}
+
+footer{
+   top: 0px;
+}
 
 
 
   @media only screen and (max-width: 320px){
 
-    h1{
-      color: #000000;
-      font-family: 'Molle', cursive;
-      font-size: 18pt;
-      left: 17%;
-      display: flex;
-      position: relative;
-      margin: 32% 20% 20% 0%;
-    }
+h1{
+    color: #000000;
+    font-family: 'Molle', cursive;
+    font-size: 18pt;
+    left: 17%;
+    display: flex;
+    position: relative;
+    margin: 32% 20% 20% 0%;
+}
 
-       nav{
-         display: flex;
-       }
+nav{
+   display: flex;
+}
 
-       nav ul{
-         list-style-type: none;
-         display: flex;
-         justify-content: right;
-         align-items: center;
-         display: flex;
-         position: relative;
-         left: 5%;
-       }
+nav ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+   display: flex;
+   position: relative;
+   left: 5%;
+}
 
-       nav ul li{
-         margin: 0% 10% 0% 10%;
-         display: flex;
-       }
+nav ul li{
+   margin: 0% 10% 0% 10%;
+   display: flex;
+ }
 
-       nav ul li a{
-         text-decoration: none;
-         color: #000000;
-         font-family: 'Roboto', sans-serif;
-         font-weight: 300;
-         font-size: 14pt;
-         display: flex;
-       }
+nav ul li a{
+   text-decoration: none;
+   color: #000000;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 14pt;
+   display: flex;
+ }
 
-    header{
-      display: inline;
-      height: 41px;
-      margin: 0 auto;
-      position: relative;
-      width: 93%;
-  }
+header{
+   display: inline;
+   height: 41px;
+   margin: 0 auto;
+   position: relative;
+   width: 93%;
+}
 
-    nav{
-      display: none;
-    }
+nav{
+   display: none;
+}
 
-    .hamburger {
-      font-size: 30px;
-      cursor: pointer;
-      display: inline;
-      position: relative;
-      left: 86%;
-      top: -1%;
-      margin: -1%;
-      padding: .75% 3% .75% 3%;
-      color: #ffffff;
-      background-color: #000000;
-  }
+.hamburger {
+   font-size: 30px;
+   cursor: pointer;
+   display: inline;
+   position: relative;
+   left: 86%;
+   top: -1%;
+   margin: -1%;
+   padding: .75% 3% .75% 3%;
+   color: #ffffff;
+   background-color: #000000;
+}
 
   .intro_panel h1 {
     position: relative;
     top: -111px;
     width: 200px;
     left: 70px;
-}
+  }
+
   .intro_panel{
     background-image: url('../img/Adam Lambert_1.jpg');
     background-position: relative;
@@ -1069,13 +1067,18 @@ iframe{
     top: 12px;
   }
 
+.videocontainer{
+    width: 91%;
+    padding-top: 51.75%;
+    margin-bottom: 5%;
+}
 
-  .images_home{
+.images_home{
     margin-top: -5%;
     width:99%;
-  }
+}
 
-  .content_panel_home{
+.content_panel_home{
     background-color: #2F007B;
     height: auto;
     width: 93%;
@@ -1086,7 +1089,7 @@ iframe{
     float: right;
     top: 10px;
 
-  }
+}
 
 .content_panel_about{
   background-color: #2F007B;
@@ -1103,6 +1106,7 @@ iframe{
 .content_panel_about h2{
   margin: 6% 0% 0% 0%;
   position: relative;
+  width: 200px;
   left: 7%;
   font-size: 30pt;
 }
@@ -1110,17 +1114,18 @@ iframe{
 .about_text{
   text-decoration: none;
   left: 5%;
+  width: 88%;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 11pt;
+  font-size: 11.5pt;
   margin: 1% 7% 0% 7%;
 }
 
 .img_5{
-    margin:7% 0% 8% 5.5%;
+    margin:7% 0% 7% 5.5%;
     float: right;
-    width: 92.35%;
+    width: 93%;
 }
 
 
@@ -1137,16 +1142,17 @@ iframe{
 
   .content_panel_contact h2{
     font-size: 30pt;
-    margin: 10% 0% 3% 5%;
+    position: relative;
+    left: 4%;
+    margin: 6% 0% 2% 4%;
   }
 
   form input{
     height: 35px;
-    width: 158%;
-    margin: 0% 0% 0% 4%;
+    width: 90%;
+    margin: 0% 0% 0% 2.5%;
     font-size: 12pt;
     position: relative;
-    left: 10%;
     border: 4px #000000;
     text-decoration: none;
     color: #000000;
@@ -1156,10 +1162,9 @@ iframe{
 
   textarea{
     position: relative;
-    left: 10%;
     height: 150px;
-    width: 158%;
-    margin: 0% 0% -.5% 4%;
+    width: 90%;
+    margin: 0% 0% -.5% 2.5%;
     border: 4px #000000;
     text-decoration: none;
     color: #000000;
@@ -1194,12 +1199,12 @@ iframe{
   }
 
   input.submitbutton{
-    width: 45%;
+    width: 30%;
     color: #fff;
     background-color: #00AE7A;
     border: none;
     font-size: 12pt;
-    margin: -8% 0% 15% 4%;
+    margin: -7.5% 0% 8% 2.5%;
   }
 
   /* Submit Button Hover state */
@@ -1228,13 +1233,13 @@ iframe{
 
   .content_panel_tour h2{
     margin: 7% 0% .5% 0%;
-    left: 9%;
+    left: 7.5%;
     font-size: 30pt;
   }
 
   .content_panel_tour h3{
     font-size: 16pt;
-    left: 9%;
+    left: 7.5%;
     margin: 0% 0% 0% 0%;
     display: flex;
     position: relative;
@@ -1242,11 +1247,11 @@ iframe{
 
   hr{
     height: 20px;
-    width: 111%;
+    width: 91.5%;
     margin: 2% 0% 2% 0%;
     position: relative;
     top: -1%;
-    left: 9%;
+    left: 7.5%;
   }
 
   .venue{
@@ -1254,7 +1259,7 @@ iframe{
     text-decoration: none;
     position: relative;
     display: flex column;
-    left: 9%;
+    left: 7.75%;
     justify-content: left;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -1280,7 +1285,7 @@ iframe{
     text-decoration: none;
     position: relative;
     display: flex;
-    left: -1.5%;
+    left: -16.75%;
     justify-content: right;
     align-items: right;
     color: #ffffff;
@@ -1298,7 +1303,7 @@ iframe{
     text-decoration: none;
     position: relative;
     display: flex;
-    left: -3%;
+    left: -18%;
     justify-content: right;
     align-items: right;
     color: #ffffff;
@@ -1308,14 +1313,13 @@ iframe{
     position: relative;
     top: -35px;
     margin-left: 90%;
+    margin-bottom: 0%;
     width: 100px;
-
   }
 
   .content_panel_tour{
     background-color: #2F007B;
     width: 100vw;
-    height: 665px;
     margin: 0% 0% 7.5% 0%;
     display: flex;
     justify-content: right;
@@ -1340,66 +1344,66 @@ iframe{
       flex-direction: column;
     }
 
-    #stream_header h2 {
+    #stream_header h2{
       font-size: 30pt;
       position: relative;
-      left: -51%;
-      margin: 10% 0% 0% 0%;
+      left: 4%;
+      margin: 6% 0% 0% 0%;
     }
 
 
     iframe {
-      width: 86.5%;
+      width: 86.75%;
       height: 500px;
-      margin: 2% 0% 7.5% 0%;
+      margin: 2% 0% 7% 0%;
       position: relative;
       left: 0%;
   }
 
-    /* Begin Footer */
+  /* Begin Footer */
 
-    /* Added in flex-direction: column to stack the items in your footer with positioning to have the spacing on the above the footer.  */
-       footer{
-         background-color: #00AE7A;
-         background-size: cover;
-         background-position: center;
-         height: 15%;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
-         position: relative;
-         top: 0px;
-         width: 100vw;
-       }
+  /* Added in flex-direction: column to stack the items in your footer with positioning to have the spacing on the above the footer.  */
+  footer{
+      background-color: #00AE7A;
+      background-size: cover;
+      background-position: center;
+      height: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      top: 0px;
+      width: 100vw;
+  }
 
-       .socialicons{
-        margin: 3% 0% 0% 0%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-      }
+  .socialicons{
+      margin: 3% 0% 0% 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+  }
 
-      #instagram:hover .fa-instagram::before,
-      #twitter:hover .fa-twitter::before,
-      #facebook:hover .fa-facebook::before{
-        color: #fff;
-      }
+  #instagram:hover .fa-instagram::before,
+  #twitter:hover .fa-twitter::before,
+  #facebook:hover .fa-facebook::before{
+    color: #fff;
+  }
 
-      p{
-         text-decoration: none;
-         color: #ffffff;
-         font-family: 'Roboto', sans-serif;
-         font-weight: 300;
-         font-size: 10pt;
-         margin-bottom: 3%;
-       }
+p{
+     text-decoration: none;
+     color: #ffffff;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     font-size: 10pt;
+     margin-bottom: 3%;
+}
 
-       p.copyright{
-         margin-top: 1%;
-         margin-bottom: 3%;
-       }
+p.copyright{
+     margin-top: 1%;
+     margin-bottom: 3%;
+}
 
   }
 
